@@ -30,6 +30,16 @@ function App() {
       amount={donateData[0].amount}
       date={donateData[0].date}
       ></DonateItem>
+      <DonateItem
+      title={donateData[1].title}
+      amount={donateData[1].amount}
+      date={donateData[1].date}
+      ></DonateItem>
+      <DonateItem
+      title={donateData[2].title}
+      amount={donateData[2].amount}
+      date={donateData[2].date}
+      ></DonateItem>
 
     </div>
   );
